@@ -174,6 +174,43 @@
 //     }
 //  evenIfnumbers([2,32,35,5,6,7,8,9,34],5);
 
-function (array) {
+// function popAndfinish(array,num) {
+//     var temp;
+//     for (var i = 0; i < array.length; i++) {
+//         if(num==array[i]){
+//             temp=1;
+//         array.splice(i,1);
+//         i-- ;
+//     }      
+//   }
+//   if(temp!=1){
+//     array.push(num);
+//   }
+//   console.log(array);
+// }
+// popAndfinish([8,5,6,8,4,9,7,63,89,2],1);
+
+// function highArray(array,num) {
+//     var max=array[0]
+//     for (var i = 0; i < array.length; i++) {
+//         if (max<array[i]) {
+//             max=array[i]
+//         }
+//     }
+//     if(num>max){
+//         array.unshift(num)
+//     }
+//     else{
+//         array.push(num)
+//     }
+//     return array
+// }
+
+// function popNumbers(array,num) {
+//         if(num<array.length){
+//             array.splice(num,1)
+//         }     
+//         console.log(array)
+//     }
+//     popNumbers([1,2,3,4,5],2)
     
-}
